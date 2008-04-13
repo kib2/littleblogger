@@ -1,0 +1,26 @@
+h1. LittleBlogger
+
+C'est le nom de ma petite application de blog en local.
+
+Le projet a commencé en Septembre 2007, il est amélioré au fur et à mesure de
+mes besoins quotidien.
+
+Les seuls modules externes vraiment nécessaires sont *docutils*, *Pygments* 
+et *Mako*.
+
+Choisissez une version récente de ceux-ci autant que possible.
+
+Un blog de démonstration est fourni, on le lance par :
+
+bq. python BlogDemo.py
+
+Le dossier BlogDemo contient tout ce qu'il faut pour modifier son blog.
+
+- Le dossier Templates contient les gabarits au format mako.
+- Le fichier In représente les entrées du blog. Etudiez en un de près pour
+  voir comment fonctionne tout ceci. Les 5 premières lignes sont importantes.
+- Le dossier Out est celui qui contiendra les pages générées. Il n'est pas 
+  vide puisqu'il contient au départ toutes les ressources statiques, comme 
+  les images ou les css.
+- Le dossier Static contient des entrées 
+
