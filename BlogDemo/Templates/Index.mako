@@ -44,7 +44,7 @@
                     % endfor
                 </ul>
                 
-                <h1><img style="vertical-align:middle;" src="http://kib2.free.fr/Articles/archives.png" alt="categorie icon" border="0" />Archives(En construction)</h1>
+                <h1><img style="vertical-align:middle;" src="http://kib2.free.fr/Articles/archives.png" alt="categorie icon" border="0" />Archives</h1>
                     % for annee in archive.keys():
                             <% 
                             import itertools

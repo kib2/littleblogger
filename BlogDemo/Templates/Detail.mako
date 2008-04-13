@@ -15,7 +15,7 @@
                     % endfor
                 </div>
                 ${p.html_content}
-
+            </div>
 
         </div>
 
@@ -42,9 +42,9 @@
 
                 <%include file="links_right.mako"/>
 
-            </div>
+            </div> <!-- subnav -->
 
-        </div>
+        </div> <!-- right -->
 
         <div class="clearer"><span></span></div>
 
@@ -55,22 +55,6 @@
     </div>
 
 </div>
-
-<script type="text/javascript">
-//<[CDATA[
-(function() {
-		links = document.getElementsByTagName('a');
-		query = '?';
-		for(var i = 0; i < links.length; i++) {
-			if(links[i].href.indexOf('#disqus_thread') >= 0) {
-				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-			}
-		}
-		document.write('<script type="text/javascript" src="http://disqus.com/forums/kib2/get_num_replies.js' + query + '"></' + 'script>');
-	})();
-//]]>
-</script>
-
 
 </body>
 </html>

@@ -8,15 +8,15 @@ Le projet a commencé en Septembre 2007, il est amélioré au fur et à mesure d
 mes besoins quotidien.
 
 Les seuls modules externes vraiment nécessaires sont :
-- *docutils*
+
+- *docutils* (fonctionne aussi avec Markdown)
 - *Pygments* 
 - *Mako*
 
 Choisissez une version récente de ceux-ci autant que possible.
 
-Un blog de démonstration est fourni, on le lance par : ::
-
-    python BlogDemo.py
+Fonctionnement
+==============
 
 Le dossier BlogDemo contient tout ce qu'il faut pour modifier son blog.
 
@@ -32,4 +32,6 @@ Le dossier BlogDemo contient tout ce qu'il faut pour modifier son blog.
 - Le dossier Static contient des entrées spéciales, comme une page dédiée à
   un de vos sujet favoris, etc.
 
+Un blog de démonstration est fourni, on le lance par : ::
 
+    python BlogDemo.py
